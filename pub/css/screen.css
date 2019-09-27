@@ -457,7 +457,8 @@ html, body {
   left: 0;
   bottom: 0;
   width: 230px;
-  background-color: #2E3336;
+  /*background-color: #2E3336;*/
+  background-color: #1A1E31;
   font-size: 13px;
   font-weight: bold; }
   .toc-wrapper .lang-selector {
@@ -520,14 +521,21 @@ html, body {
     transition-timing-function: linear;
     transition-duration: 200ms; }
   .toc-wrapper .toc-link.active {
-    background-color: #0F75D4;
-    color: #fff; }
+    /*background-color: #0F75D4;*/
+    background-color: #2A2F49;
+    /*color: #fff;*/
+    color: #357CE1;
+  }
   .toc-wrapper .toc-link.active-parent {
-    background-color: #1E2224;
-    color: #fff; }
+    /*background-color: #1E2224;*/
+    background-color: #1A1E31;
+    /*color: #fff;*/
+    color: #D2D6EC;
+  }
   .toc-wrapper .toc-list-h2 {
     display: none;
-    background-color: #1E2224;
+    /*background-color: #1E2224;*/
+    background-color: #1A1E31;
     font-weight: 500; }
   .toc-wrapper .toc-h2 {
     padding-left: 25px;
@@ -553,10 +561,15 @@ html, body {
   white-space: nowrap;
   text-overflow: ellipsis;
   text-decoration: none;
-  color: #fff;
+  /*color: #fff;*/
+  color: #D2D6EC;
   transition-property: background;
   transition-timing-function: linear;
   transition-duration: 130ms; }
+
+.toc-wrapper .toc-h2 {
+  color: #61698A;
+}
 
 #nav-button {
   padding: 0 1.5em 5em 0;
@@ -590,12 +603,14 @@ html, body {
   margin-left: 230px;
   position: relative;
   z-index: 10;
-  background-color: #F3F7F9;
+  /*background-color: #F3F7F9;*/
+  background-color: #fff;
   min-height: 100%;
   padding-bottom: 1px; }
   .page-wrapper .dark-box {
     width: 50%;
-    background-color: #2E3336;
+    /*background-color: #2E3336;*/
+    background-color: #1A1E31;
     position: absolute;
     right: 0;
     top: 0;
