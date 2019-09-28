@@ -6,7 +6,7 @@ language_tabs:
   - python: Python
 toc_footers:
   - <a href="http://swagger.io">Find out more about Swagger</a>
-includes: []
+includes: ["errors"]
 search: false
 highlight_theme: darkula
 headingLevel: 2
