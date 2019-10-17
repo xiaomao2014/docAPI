@@ -5,7 +5,7 @@ language_tabs:
   - java: Java
   - python: Python
 toc_footers:
-  - <a href="http://swagger.io">Find out more about Swagger</a>
+  - <a href="http://swagger.io">添加外部链接</a>
 includes: ["errors"]
 search: false
 highlight_theme: darkula
