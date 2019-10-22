@@ -41,3 +41,7 @@ div .highlight {
 .well {
     background: rgba(0, 0, 0, 0.01);
 }
+/*自定义css样式覆盖*/
+.content h1 {
+    color: red;
+}
