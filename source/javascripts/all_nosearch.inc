@@ -2,6 +2,7 @@
 <script src="source/javascripts/lib/_energize.js"></script>
 <script src="source/javascripts/app/_lang.js"></script>
 <script src="source/javascripts/app/_toc.js"></script>
+<script src="source/javascripts/app/_custom.js"></script>
 <script type="text/javascript">
 $(function() {
   loadToc($('#toc'), '.toc-link', '.toc-list-h2, .toc-list-h3, .toc-list-h4, .toc-list-h5, .toc-list-h6', 10);
