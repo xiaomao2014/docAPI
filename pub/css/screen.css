@@ -811,14 +811,3 @@ html, body {
 .highlight, .highlight .w {
   background-color: #1E2224; }
 
-/*ren增加了header样式*/
-header {
-    position: fixed;
-    width: 100%;
-    box-sizing: border-box;
-    height: 60px;
-    left: 0;
-    top: 0;
-    background: #131625;
-    z-index: 99999;
-}

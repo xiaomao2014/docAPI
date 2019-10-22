@@ -42,6 +42,22 @@ div .highlight {
     background: rgba(0, 0, 0, 0.01);
 }
 /*自定义css样式覆盖*/
-.content h1 {
+.content h1,.content h2 {
     color: red;
+    padding-top: 60px;
+}
+.toc-wrapper, .page-wrapper .dark-box {
+    top: 60px;
+}
+
+/*ren增加了header样式*/
+header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    height: 60px;
+    left: 0;
+    top: 0;
+    background: #131625;
+    z-index: 99999;
 }
