@@ -54,6 +54,17 @@ div .highlight {
 /*    margin-top: -20px;*/
 /*}*/
 
+/*重置编程语言选中背景色*/
+.page-wrapper .lang-selector {
+    border-bottom: 5px solid #1A1E31;
+}
+.lang-selector a.active {
+    background-color: #1A1E31;
+}
+.lang-selector {
+    background-color: #191D1F;
+}
+
 /*ren增加了header样式*/
 header.top-nav {
     position: fixed;
