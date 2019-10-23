@@ -75,6 +75,14 @@ function javascript_include_tag(include) {
     return includeStr;
 }
 
+
+// 增加引入ejs文件HTML结构的方法
+function html_include_tag(include) {
+    var includeStr = safeReadFileSync(path.join(globalOptions.root, '/source/layouts/' + include + '.ejs'), 'utf8');
+    // console.log(includeStr)
+    return includeStr;
+}
+
 function partial(include) {
     var includePath = '';
     if (include.indexOf('/') === 0) {
@@ -387,6 +395,8 @@ function render(inputStr, options, callback) {
         };
         locals.stylesheet_link_tag = stylesheet_link_tag;
         locals.javascript_include_tag = javascript_include_tag;
+        // 引入ejs文件HTML结构的方法 增加到locals中
+        locals.html_include_tag = html_include_tag;
         locals.language_array = language_array;
 
         var ejsOptions = {};

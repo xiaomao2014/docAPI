@@ -51,13 +51,42 @@ div .highlight {
 }
 
 /*ren增加了header样式*/
-header {
+header.top-nav {
     position: fixed;
     width: 100%;
     box-sizing: border-box;
     height: 60px;
     left: 0;
     top: 0;
+    padding: 0 26px;
     background: #131625;
     z-index: 99999;
+    display: flex;
+    align-items: center;
+}
+
+header.top-nav .nav-left {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    color: #D2D6EC;
+    font-size: 16px;
+}
+
+header.top-nav .en-button {
+    display: inline-block;
+    width: 78px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #383F66;
+    color: #ADC1D5;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+header.top-nav .lang-toggle:hover {
+    color: #357CE1;
+    border-color: #357CE1;
 }
