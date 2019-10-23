@@ -73,7 +73,7 @@ header.top-nav .nav-left {
     font-size: 16px;
 }
 
-header.top-nav .en-button {
+header.top-nav .lang-toggle {
     display: inline-block;
     width: 78px;
     height: 26px;
@@ -89,4 +89,8 @@ header.top-nav .en-button {
 header.top-nav .lang-toggle:hover {
     color: #357CE1;
     border-color: #357CE1;
+}
+
+header.top-nav .cn-button {
+    display: none;
 }

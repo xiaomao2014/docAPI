@@ -4,6 +4,7 @@
 ;(function () {
     'use strict';
     // url信息
+    console.log("此js文件是放到index.html文件head元素中body的前面")
     console.log(window.location);
     var dom = $('.content > h1').text()
     console.log(dom)

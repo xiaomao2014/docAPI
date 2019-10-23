@@ -78,6 +78,7 @@ function javascript_include_tag(include) {
 
 // 增加引入ejs文件HTML结构的方法
 function html_include_tag(include) {
+    // safeReadFileSync:同步读取文件-会阻塞程序的往下进行
     var includeStr = safeReadFileSync(path.join(globalOptions.root, '/source/layouts/' + include + '.ejs'), 'utf8');
     // console.log(includeStr)
     return includeStr;
