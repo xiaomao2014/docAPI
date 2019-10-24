@@ -17,13 +17,13 @@
     //     alert("hellwor2");
     // });
 
-    $(".en-button").click(function(){
-        $(this).hide();
-        $(".cn-button").show();
-    });
-    $(".cn-button").click(function(){
-        $(this).hide();
-        $(".en-button").show();
-    });
+    // $(".en-button").click(function(){
+    //     $(this).hide();
+    //     $(".cn-button").show();
+    // });
+    // $(".cn-button").click(function(){
+    //     $(this).hide();
+    //     $(".en-button").show();
+    // });
 })();
 
